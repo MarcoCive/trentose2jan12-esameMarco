@@ -30,7 +30,7 @@ router.route('/getArea')
         if (req.query.length != 2) {
             res.json(-1)
         } else {
-        var result = area(req.query.side1, req.query.side2);
+        var result = area(parseInt(req.query.side1), parseInt(req.query.side2));
         if (result == -1) {
             res.json(result);
         } else {
