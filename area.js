@@ -1,4 +1,4 @@
-exports.getArea = ((a) => {
+var getArea = ((a) => {
     if(!Array.isArray(a)) {
         return -1;
     } else if(a.length != 2) {
@@ -12,3 +12,4 @@ exports.getArea = ((a) => {
     }
 });
 
+module.exports = getArea;

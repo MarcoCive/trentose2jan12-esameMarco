@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1515751062693" clover="3.2.0">
+  <project timestamp="1515751062693" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1" elements="24" coveredelements="24" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1">
+      <file name="area.js" path="/home/marco.civettini-1/Desktop/esameIngSoft2/trentose2jan12-esameMarco/area.js">
+        <metrics statements="11" coveredstatements="11" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>

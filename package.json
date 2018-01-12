@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/MarcoCive/trentose2jan12-esameMarco/issues"
   },
-  "homepage": "https://github.com/MarcoCive/trentose2jan12-esameMarco#readme"
+  "homepage": "https://github.com/MarcoCive/trentose2jan12-esameMarco#readme",
+  "devDependencies": {
+    "jest": "^22.0.6"
+  },
+  "jest": {
+  "verbose": true,
+  "collectCoverage": true
+}
 }
